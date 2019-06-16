@@ -1,0 +1,12 @@
+{
+  "name": "portfolio2019",
+  "version": "1.0.0",
+  "description": "portfolio web",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss ./style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmytro Semenov",
+  "license": "ISC"
+}
