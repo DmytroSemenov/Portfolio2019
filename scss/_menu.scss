@@ -10,7 +10,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -20,14 +20,14 @@
     .btn-line {
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
-        background-color: yellow;
+        background-color: $secondary-color;
       }
       &:nth-child(2) {
         opacity: 0;
       }
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
-        background-color: yellow;
+        background-color: $secondary-color;
       }
     }
   }
@@ -81,7 +81,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../img/face.jpg');
+      background: url('./img/face.jpg');
       border-radius: 50%;
       border: 3px solid $secondary-color;
     }
@@ -107,7 +107,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
