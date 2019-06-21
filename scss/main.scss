@@ -93,7 +93,7 @@ main {
     & a {
       color: $secondary-color;
     }
-    // font-size: 1.2rem;
+    // font-size: 1.5rem;
   }
 
   .job1 {
@@ -110,7 +110,7 @@ main {
 
   .job {
     background: lighten($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: 5px solid $secondary-color;
     & h3 {
       color: $secondary-color;

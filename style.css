@@ -250,7 +250,7 @@ main#home h1 {
 }
 .about-info .job {
   background: #515151;
-  padding: 0.5rem;
+  padding: 1rem;
   border-bottom: 5px solid #ff7700;
 }
 .about-info .job h3 {
